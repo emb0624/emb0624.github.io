@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -128,6 +128,20 @@ h6 {
 
 .banner ul {
     margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media(max-width:1199px) {
+    .banner ul {
+        justify-content: center;
+    }
+
+    .banner ul li {
+        margin: 5px;
+    }
 }
 
 .banner-social-buttons {
