@@ -31,7 +31,6 @@ h6 {
 }
 
 .intro-header {
-    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background:
@@ -39,9 +38,9 @@ h6 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    /* bottom, image */
     url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
+    height: 100vh;
 }
 
 .intro-message {
