@@ -120,14 +120,29 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.banner h2 {
+.banner-background-1 {
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+}
+
+.banner-background-2 {
+    background: url(../img/banner-bg2.jpg) no-repeat center center;
+}
+
+.banner h2,
+.banner h3 {
     margin: 0;
     text-shadow: 1px 1px 6px rgba(0,0,0,1);
-    font-size: 3em;
+}
+
+.banner h2 { font-size: 3em; }
+.banner h3 { font-size: 2em; }
+
+.banner h2 small,
+.banner h3 small {
+    color: #e7e7e7;
 }
 
 .banner ul {
