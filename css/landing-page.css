@@ -38,7 +38,7 @@ h6 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/intro-bg.jpg) no-repeat center center;
+    url(https://res.cloudinary.com/embengineering/image/upload/v1523919949/intro-bg.jpg) no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
@@ -124,11 +124,11 @@ h6 {
 }
 
 .banner-background-1 {
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(https://res.cloudinary.com/embengineering/image/upload/v1523919947/banner-bg.jpg) no-repeat center center;
 }
 
 .banner-background-2 {
-    background: url(../img/banner-bg2.jpg) no-repeat center center;
+    background: url(https://res.cloudinary.com/embengineering/image/upload/v1523919948/banner-bg2.jpg) no-repeat center center;
 }
 
 .banner h2,
