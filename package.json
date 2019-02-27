@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://embengineering.github.com/embengineering.github.io",
   "dependencies": {
     "react": "16.8.0",
     "react-dom": "16.8.0",
