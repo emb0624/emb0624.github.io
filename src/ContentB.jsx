@@ -1,13 +1,13 @@
 import React from "react";
 
 const ContentB = ({ title, link, description, imageUrl, imageTarget }) => (
-  <div class="content-section-b">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-          <hr class="section-heading-spacer" />
-          <div class="clearfix" />
-          <h2 class="section-heading">
+  <div className="content-section-b">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+          <hr className="section-heading-spacer" />
+          <div className="clearfix" />
+          <h2 className="section-heading">
             {title}
             <br />
             <small>
@@ -17,11 +17,11 @@ const ContentB = ({ title, link, description, imageUrl, imageTarget }) => (
             </small>
             <br />
           </h2>
-          <p class="lead">{description}</p>
+          <p className="lead">{description}</p>
         </div>
-        <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+        <div className="col-lg-5 col-sm-pull-6  col-sm-6">
           <a href={imageTarget} target="_blank" rel="noopener noreferrer">
-            <img class="img-responsive" src={imageUrl} alt={title} />
+            <img className="img-responsive" src={imageUrl} alt={title} />
           </a>
         </div>
       </div>
